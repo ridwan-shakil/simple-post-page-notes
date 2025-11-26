@@ -1,0 +1,50 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Simple Post Page Notes 1.2.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/simple-post-page-notes\n"
+"POT-Creation-Date: 2025-11-13 00:00+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: ChatGPT GPT-5\n"
+"X-Domain: simple-post-page-notes\n"
+
+#: includes/class-sppn-metabox.php:33
+msgid "Simple Notes"
+msgstr ""
+
+#: includes/class-sppn-metabox.php:45
+msgid "Add a private note for this post. Visible only to admins and editors."
+msgstr ""
+
+#: includes/class-sppn-metabox.php:46
+msgid "Note title..."
+msgstr ""
+
+#: includes/class-sppn-columns.php:28
+msgid "Note Preview"
+msgstr ""
+
+#: includes/class-sppn-columns.php:47
+msgid "— No Note —"
+msgstr ""
+
+#: includes/class-sppn-settings.php:22
+msgid "Simple Post Page Notes"
+msgstr ""
+
+#: includes/class-sppn-settings.php:58
+msgid "Exclude Post Types"
+msgstr ""
+
+#: includes/class-sppn-settings.php:71
+msgid "Select post types where you do NOT want to show notes."
+msgstr ""
+
+#: includes/class-sppn-settings.php:84
+msgid "Simple Post Page Notes Settings"
+msgstr ""
