@@ -1,6 +1,8 @@
 <?php
 /**
  * Uninstall script for Simple Post Page Notes.
+ *
+ * @package SimplePostPageNotes
  */
 
 if ( ! defined( 'WP_UNINSTALL_PLUGIN' ) ) {

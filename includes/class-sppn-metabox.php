@@ -51,7 +51,6 @@ class SPPN_Metabox {
 		foreach ( (array) $post_types as $post_type ) {
 			add_meta_box(
 				'simple_post_page_notes_box',
-				/* translators: Meta box title. */
 				__( 'Simple Notes', 'simple-post-page-notes' ),
 				array( $this, 'render_notes_meta_box' ),
 				$post_type,
@@ -75,13 +74,14 @@ class SPPN_Metabox {
 		echo '<p>' . esc_html__( 'Add a private note for this post. Visible only to administrators and editors.', 'simple-post-page-notes' ) . '</p>';
 
 		printf(
-			'<input type="text" id="simple_post_page_note_title" name="simple_post_page_note_title" placeholder="%1$s" value="%2$s" style="width:100%;margin-bottom:6px;">',
+			'<input type="text" id="simple_post_page_note_title" name="simple_post_page_note_title" placeholder="%s" value="%s" style="width:100%%; margin-bottom:6px;">',
 			esc_attr__( 'Note title...', 'simple-post-page-notes' ),
 			esc_attr( (string) $note_title )
 		);
 
 		printf(
-			'<textarea id="simple_post_page_note_body" name="simple_post_page_note_body" style="width:100%;height:100px;">%1$s</textarea>',
+			'<textarea id="simple_post_page_note_body" name="simple_post_page_note_body" placeholder="%s" style="width:100%%;height:100px;">%s</textarea>',
+			esc_attr__( 'Note description...', 'simple-post-page-notes' ),
 			esc_textarea( (string) $note_body )
 		);
 	}
@@ -132,6 +132,15 @@ class SPPN_Metabox {
 			wp_enqueue_style(
 				'simple-post-page-notes-css',
 				SPPN_PLUGIN_URL . 'assets/post-page-notes.css',
+				array(),
+				SPPN_VERSION
+			);
+		}
+
+		if ( 'settings_page_simple-post-page-notes' === $hook ) {
+			wp_enqueue_style(
+				'simple-post-page-notes-settings-style',
+				SPPN_PLUGIN_URL . 'assets/post-page-notes-settings.css',
 				array(),
 				SPPN_VERSION
 			);

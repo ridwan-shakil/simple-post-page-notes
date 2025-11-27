@@ -32,8 +32,8 @@ class SPPN_Settings {
 	 */
 	public function add_settings_page(): void {
 		add_options_page(
-			__( 'Simple Post Page Notes', 'simple-post-page-notes' ),
-			__( 'Simple Post Page Notes', 'simple-post-page-notes' ),
+			__( 'Post Page Notes', 'simple-post-page-notes' ),
+			__( 'Post Page Notes', 'simple-post-page-notes' ),
 			'manage_options',
 			'simple-post-page-notes',
 			array( $this, 'render_settings_page' )

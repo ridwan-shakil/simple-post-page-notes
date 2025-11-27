@@ -1,16 +1,15 @@
 <?php
 /**
-* Plugin Name: Simple Post Page Notes
-* Description: Add private admin-only notes (title + body) to posts, pages, products and public custom post types. Includes a preview column and settings to exclude post types.
-* Version: 1.0.0
-* Author: MD. Ridwan
-* Author URI: https://example.com
-* Text Domain: simple-post-page-notes
-* Domain Path: /languages
-* License: GPLv2 or later
-* License URI: https://www.gnu.org/licenses/gpl-2.0.html
-*/
-
+ * Plugin Name: Simple Post Page Notes
+ * Description: Add simple notes to posts, pages, products and public custom post types. Includes a preview column and settings to exclude post types.
+ * Version: 1.0.0
+ * Author: MD. Ridwan
+ * Author URI: https://github.com/ridwan-shakil/
+ * Text Domain: simple-post-page-notes
+ * Domain Path: /languages
+ * License: GPLv2 or later
+ * License URI: https://www.gnu.org/licenses/gpl-2.0.html
+ */
 
 declare( strict_types=1 );
 
@@ -49,8 +48,8 @@ require_once SPPN_PLUGIN_DIR . 'includes/class-sppn-settings.php';
 
 
 /**
-* Initialize the plugin.
-*/
+ * Initialize the plugin.
+ */
 function sppn_init_plugin(): void {
 	// Load textdomain for translations.
 	load_plugin_textdomain( 'simple-post-page-notes', false, dirname( plugin_basename( SPPN_PLUGIN_FILE ) ) . '/languages' );
