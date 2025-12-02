@@ -1,0 +1,76 @@
+# Copyright (C) 2025 MD. Ridwan
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Simple Post Page Notes 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/simple-post-page-notes\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2025-11-27T16:51:07+01:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: simple-post-page-notes\n"
+
+#. Plugin Name of the plugin
+#: simple-post-page-notes.php
+msgid "Simple Post Page Notes"
+msgstr ""
+
+#. Description of the plugin
+#: simple-post-page-notes.php
+msgid "Add simple notes to posts, pages, products and public custom post types. Includes a preview column and settings to exclude post types."
+msgstr ""
+
+#. Author of the plugin
+#: simple-post-page-notes.php
+msgid "MD. Ridwan"
+msgstr ""
+
+#. Author URI of the plugin
+#: simple-post-page-notes.php
+msgid "https://github.com/ridwan-shakil/"
+msgstr ""
+
+#: includes/class-sppn-columns.php:65
+msgid "Note Preview"
+msgstr ""
+
+#: includes/class-sppn-columns.php:86
+msgid "— No Note —"
+msgstr ""
+
+#: includes/class-sppn-metabox.php:54
+msgid "Simple Notes"
+msgstr ""
+
+#: includes/class-sppn-metabox.php:74
+msgid "Add a private note for this post. Visible only to administrators and editors."
+msgstr ""
+
+#: includes/class-sppn-metabox.php:78
+msgid "Note title..."
+msgstr ""
+
+#: includes/class-sppn-metabox.php:84
+msgid "Note description..."
+msgstr ""
+
+#: includes/class-sppn-settings.php:35
+#: includes/class-sppn-settings.php:36
+msgid "Post Page Notes"
+msgstr ""
+
+#: includes/class-sppn-settings.php:87
+msgid "Simple Post Page Notes Settings"
+msgstr ""
+
+#: includes/class-sppn-settings.php:92
+msgid "Exclude Post Types"
+msgstr ""
+
+#: includes/class-sppn-settings.php:100
+msgid "Select post types where you do NOT want to show notes."
+msgstr ""
